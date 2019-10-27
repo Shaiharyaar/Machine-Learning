@@ -1,0 +1,11 @@
+# Vector-space
+Machine learning python code for vector-space algorithm (find-S)
+
+Find-S:
+There are two types of hypothsis. Specific and General.
+There are two types of results. positive and negative.
+We will take the first positive record from our data and consider as our specific hypothesis. 
+We will compare it with all the positive records available in our dataset and will do changes to our specific hypothesis according to it.
+We will skip the negative results and will not interact with it in any way.
+This will go on until the last record is compared with our specific hypothesis and then we will get the result which will contain only
+that data which needs to be specific for our result to be true.
